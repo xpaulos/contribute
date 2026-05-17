@@ -34,7 +34,7 @@ def squares():
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Colored Fruit Squares</title>
+        <title>Colored Fruits Squares</title>
         <style>
     body { font-family: sans-serif; background-color: #f4f4f9; display: flex; flex-direction: column; align-items: center; padding: 20px; }
 
@@ -51,7 +51,7 @@ def squares():
 </style>
     </head>
     <body>
-        <h1>Squares with Colors </h1>
+        <h1>Colored Fruits Squares</h1>
         <div class="container">
             {% for color, text in squares_data %}
             <div class="square" style="background-color: {{ color }};" title="{{ color }}">
